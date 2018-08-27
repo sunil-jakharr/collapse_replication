@@ -1,0 +1,46 @@
+.html{
+  padding:0px;
+  margin: 0px;
+  font:16px;
+}
+
+body{
+  background: #fef6e6;
+  margin-top:30px;
+  font-family: 'ABeeZee', sans-serif;
+  padding: 30px;
+}
+
+.root{
+  display: flex;
+  flex-direction:column;
+
+  align-items: center;
+  background: #f9f9f9;
+  border-color:#ddd;
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
+  padding: 30px;
+  max-width:992px;
+  margin:0 auto;
+
+}
+
+.collapse1{
+  height:10vh;
+  color: black;
+  width:75vw;
+  border-bottom:1px solid #ddd;
+   padding:15px 0px;
+   cursor: pointer;
+
+}
+
+.collapse-content1{
+  padding:10px;
+  margin: 10px;
+  background: #fef6e6;
+  color: grey;
+  border-left: 1.5px solid #ddd;
+  font: 1rem;
+
+}
